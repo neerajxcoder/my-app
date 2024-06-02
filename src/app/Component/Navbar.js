@@ -9,7 +9,7 @@ const Navbar = () => {
       const nav = document.querySelector('header nav');
       if (nav) {
         
-        nav.style.left = isNavOpen ? '30px' : '500px';
+        nav.style.top = isNavOpen ? '0px' : '-50px';
        
       }
     };
@@ -27,7 +27,7 @@ const Navbar = () => {
             <li><a href="#project">Project</a></li>
           </ul>
         </nav>
-        <button className="nav-toggle" onClick={toggleNav}>
+        <button className="nav-toggle" onClick={toggleNav}>onClick
           {isNavOpen ? 'Close' : 'Menu'}
         </button>
       </header>
