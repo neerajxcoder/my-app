@@ -5,8 +5,8 @@
 * {
   margin: 0;
   padding: 0;
-  
   box-sizing: border-box;
+  font-weight: 600; 
 }
 /* globals.css */
 @font-face {
@@ -78,7 +78,7 @@ header {
   position: fixed;
   background-color: #000000;
   z-index: 1000;
-  box-shadow:inset 0px 0px 20px white;
+  box-shadow:inset 0px 0px 20px rgb(109, 98, 98);
 }
 header button{
   display: none;
@@ -87,7 +87,7 @@ header h1 {
   color: #f7f5efec;
   text-shadow: 1px 2px 2px rgb(255, 255, 255);
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -111,26 +111,37 @@ header nav ul li a {
 
 .section1 {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   background-color: #000000;
   position: relative; 
-  top: 12vh;
-  font-size: clamp(12px, 4vw, 32px);
+
+  
   color: rgb(247, 249, 250);
   z-index: 10;
-  font-weight: 700;
+ 
 }
-.section1 h1{
+ h1{
   color: #f88f05;
+  font-size: clamp(30px, 4vw, 45px);
+
+}
+h2{
+  font-size: clamp(25px, 4vw, 34px);
+}
+p{
+  font-size: clamp(18px, 4vw, 25px);
+
 }
 .box {
+  font-size: clamp(12px, 4vw, 20px);
 display: flex;
   align-items: center;
  justify-content: center;
-  padding: 40px;
+  padding: 10px;
   background-color: #00000041;
   border: 1px solid rgba(65, 65, 65, 0.589);
   border-radius: 10px;
+  margin-top: 10vh;
 }
 
 .about {
@@ -158,7 +169,7 @@ section img:hover {
   background-color: rgb(0, 0, 0);
   color: #fdf8f8;
   min-height: 60vh;
-  padding: 7vh;
+  padding: 2vh;
   z-index: 10;
 
   text-align: start;
@@ -239,7 +250,9 @@ color: rgb(184, 204, 0);
   flex-direction: column;
 }
 @media (max-width: 968px) {
-
+header{
+  height: 8vh;
+}
   .skils{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -286,14 +299,4 @@ color: rgb(184, 204, 0);
   
   }
 }
-h1 {
-  font-size: 2.5rem; /* Customize the font size for h1 */
-}
-
-h2 {
-  font-size: 2rem; /* Customize the font size for h2 */
-}
-
-p {
-  font-size: 1rem; /* Customize the font size for paragraphs */
-}
+ 

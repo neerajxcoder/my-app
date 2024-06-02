@@ -26,7 +26,7 @@ const Page = () => {
           <div className="box">
             <div className="about">
               <h1>Hello<span className='style1'><SiAnalogue/></span> I'm</h1>
-              <h3>Neeraj, a passionate web developer</h3>
+              <h2>Neeraj, a passionate web developer</h2>
               <p>Welcome to my journey in web development! With a keen eye for detail and a love for creating intuitive and dynamic user experiences, I am dedicated to mastering the art of coding and design. Join me as I explore the endless possibilities of the web and strive to bring innovative ideas to life.</p>
               <button>Learn more about me</button>
             </div>
