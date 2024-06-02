@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', serif;
 }
 
 html,
@@ -63,7 +63,7 @@ body {
 section {
 overflow: hidden;
   position: relative;
-  padding-top: 12vh;
+
   min-height: 80vh;
 }
 
@@ -71,7 +71,7 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  height: 12vh;
+  height: 8vh;
   padding: 10px;
   align-items: center;
   color: aliceblue;
@@ -84,11 +84,14 @@ header button{
   display: none;
 }
 header h1 {
-  color: #f7f5efec;
-  text-shadow: 1px 2px 2px rgb(255, 255, 255);
+  color: #00d9ffec;
+  /* text-shadow: 1px 2px 2px rgb(255, 255, 255); */
   padding: 10px;
   font-size: 20px;
   font-weight: 700;
+}
+span{
+  color:rgb(88, 249, 255);
 }
 
 header nav ul {
@@ -121,15 +124,15 @@ header nav ul li a {
  
 }
  h1{
-  color: #f88f05;
-  font-size: clamp(30px, 4vw, 45px);
+  color: #fcfcfc;
+  font-size: clamp(35px, 4vw, 40px);
 
 }
 h2{
-  font-size: clamp(25px, 4vw, 34px);
+  font-size: clamp(25px, 4vw, 30px);
 }
 p{
-  font-size: clamp(18px, 4vw, 25px);
+  font-size: clamp(18px, 4vw, 20px);
 
 }
 .box {
