@@ -5,10 +5,26 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  word-spacing: 5px;
+  
   box-sizing: border-box;
+}
+/* globals.css */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
 }
 
 html,
@@ -18,10 +34,32 @@ body {
   overflow-x: hidden;
 }
 
-span {
-  color: rgb(241, 135, 13);
+.style1 {
+  color: rgb(0, 211, 248);
+  top: -25vh;
+  left: -20vw;
+  position: absolute;
+  z-index: -1;
+  font-size: 900px;
+}
+.style{
+  color: rgb(0, 204, 255);
+  font-size: 200px;
+  position: absolute;
+  z-index: -1;
+  font-size: 900px;
+  top: -10vh;
+  left: -10vw;
 }
 
+.style3 {
+  color: rgb(240, 247, 248);
+  top: 25vh;
+  left: 20vw;
+  position: absolute;
+  z-index: -1;
+  font-size: 100px;
+}
 section {
 overflow: hidden;
   position: relative;
@@ -38,14 +76,15 @@ header {
   align-items: center;
   color: aliceblue;
   position: fixed;
-  background-color: #646464;
+  background-color: #000000;
   z-index: 1000;
+  box-shadow:inset 0px 0px 20px white;
 }
 header button{
   display: none;
 }
 header h1 {
-  color: #f7f7f7ec;
+  color: #f7f5efec;
   text-shadow: 1px 2px 2px rgb(255, 255, 255);
   padding: 10px;
   font-size: 30px;
@@ -71,22 +110,25 @@ header nav ul li a {
 }
 
 .section1 {
-  text-shadow: 3px 1px 1px rgb(8, 4, 250);
   display: flex;
   padding: 20px;
   background-color: #000000;
   position: relative; 
   top: 12vh;
-  font-size: clamp(12px, 4vw, 25px);
+  font-size: clamp(12px, 4vw, 32px);
   color: rgb(247, 249, 250);
   z-index: 10;
+  font-weight: 700;
 }
-
+.section1 h1{
+  color: #f88f05;
+}
 .box {
 display: flex;
   align-items: center;
  justify-content: center;
   padding: 40px;
+  background-color: #00000041;
   border: 1px solid rgba(65, 65, 65, 0.589);
   border-radius: 10px;
 }
@@ -117,7 +159,12 @@ section img:hover {
   color: #fdf8f8;
   min-height: 60vh;
   padding: 7vh;
+  z-index: 10;
+
   text-align: start;
+}
+.section2 p{
+  padding: 20px;
 }
 .section3{
   display: flex;
@@ -180,6 +227,16 @@ color: rgb(184, 204, 0);
   position: relative;
   top:10px;
   padding: 5px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #04021a;
+  color: #f8f2f2;
+  flex-direction: column;
 }
 @media (max-width: 968px) {
 

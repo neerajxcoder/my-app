@@ -1,6 +1,7 @@
 
 "use client"
 import React, { useState } from 'react';
+import { FaBacon } from "react-icons/fa6";
 import { 
     FaHtml5,
     FaReact,
@@ -38,10 +39,12 @@ const Card = () => {
   
   return (
     <div className='skils'>
+
+
     <div className='card'>
         <FaHtml5 className='icon' />
         <div>
-          <h2> HTML</h2>
+          <h2> HTML </h2>
           <div className='div'></div>
         </div>
       </div>
