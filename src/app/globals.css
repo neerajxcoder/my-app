@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-weight: 600; 
+  
 }
 /* globals.css */
 @font-face {
@@ -126,14 +126,14 @@ header nav ul li a {
  h1{
   color: #fcfcfc;
   font-size: clamp(35px, 4vw, 40px);
-
+font-weight: 700;
 }
 h2{
   font-size: clamp(25px, 4vw, 30px);
 }
 p{
   font-size: clamp(18px, 4vw, 20px);
-
+color: rgba(255, 255, 255, 0.877);
 }
 .box {
   font-size: clamp(12px, 4vw, 20px);
