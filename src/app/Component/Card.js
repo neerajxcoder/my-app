@@ -39,14 +39,13 @@ const Card = () => {
   
   return (
     <div className='skils'>
-
-
     <div className='card'>
         <FaHtml5 className='icon' />
         <div>
           <h2> HTML </h2>
           <div className='div'></div>
         </div>
+        <h1>80%</h1>
       </div>
       <div className='card'>
         < IoLogoCss3 className='icon' />
@@ -54,16 +53,15 @@ const Card = () => {
           <h2> Css</h2>
           <div className='div'></div>
         </div>
+        <h1>75%</h1>
       </div>
       <div className='card'>
         <IoLogoJavascript className='icon' />
         <div>
           <h2>JavaScript</h2>
-      
-         <div className='div'></div>
-          
+         <div className='div'></div>         
         </div>
-        <h1>24%</h1>
+        <h1>60%</h1>
       </div>
       <div className='card'>
         <FaReact className='icon' />
@@ -71,7 +69,7 @@ const Card = () => {
           <h2> React.js</h2>
           <div className='div'></div>
         </div>
-        <h1>24%</h1>
+        <h1>20%</h1>
       </div>
       <div className='card'>
         < RiNextjsLine className='icon' />
@@ -79,7 +77,7 @@ const Card = () => {
           <h2> Next.js</h2>
           <div className='div'></div>
         </div>
-        <h1>24%</h1>
+        <h1>20%</h1>
       </div>
       <div className='card'>
         <BiLogoNodejs className='icon' />
@@ -87,6 +85,7 @@ const Card = () => {
           <h2>Node.js</h2>
           <div className='div'></div>
         </div>
+        <h1>40%</h1>
       </div>
       <div className='card'>
         <DiPostgresql className='icon' />
@@ -94,6 +93,7 @@ const Card = () => {
           <h2>SQL</h2>
           <div className='div'></div>
         </div>
+        <h1>0.1%</h1>
       </div>
       <div className='card'>
         < FaGithub className='icon' />
@@ -101,6 +101,7 @@ const Card = () => {
           <h2> Git&GiHub</h2>
           <div className='div'></div>
         </div>
+        <h1>60%</h1>
       </div>
       <div className='card'>
         <VscVscode className='icon' />
@@ -108,6 +109,7 @@ const Card = () => {
           <h2> VS.code</h2>
           <div className='div'></div>
         </div>
+        <h1>70%</h1>
       </div>
     </div>
   )
