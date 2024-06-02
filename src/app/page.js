@@ -1,8 +1,8 @@
 "use client"
 
-import Footer from './comonent/Footer';
+import Footer from './Component/Footer';
 import React, { useState } from 'react';
-import Card from "./comonent/card";
+import Card from './Component/Card';
 import { SiAnalogue, SiMeteor } from "react-icons/si";
 
 const Page = () => {
